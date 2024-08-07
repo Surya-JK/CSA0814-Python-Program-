@@ -1,0 +1,15 @@
+def fibonacci(n):
+    fib = [0, 1]
+    for i in range(2, n):
+        fib.append(fib[i-1] + fib[i-2])
+    return fib
+def fibonacci_triangle(rows):
+    fib_numbers = fibonacci(rows * (rows + 1) // 2)
+    index = 0
+    for i in range(1, rows + 1):
+        print(" " * (rows - i), end=" ")  
+        for j in range(i):
+            print(fib_numbers[index], end=" ")
+            index += 1
+        print()
+fibonacci_triangle(5)
