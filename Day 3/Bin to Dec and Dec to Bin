@@ -1,0 +1,9 @@
+dec=18
+Bin="1010"
+binary=bin(dec)[2:]
+print(binary)
+decimal=int(Bin,2)
+print(decimal)
+Output:
+10010
+10
