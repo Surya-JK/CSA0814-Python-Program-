@@ -10,3 +10,5 @@ def first_monday_of_next_month():
         first_monday += datetime.timedelta(days=1)
     return first_monday
 print(first_monday_of_next_month())
+OUTPUT:
+2024-09-02
