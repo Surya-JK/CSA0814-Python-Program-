@@ -8,3 +8,10 @@ def hollow_pyramid(rows):
                 print(' ', end='')
         print()
 hollow_pyramid(5)
+
+OUTPUT:
+    *
+   * *
+  *   *
+ *     *
+*********
