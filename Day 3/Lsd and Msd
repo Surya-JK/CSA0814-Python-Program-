@@ -1,0 +1,16 @@
+def most_significant_digit(number):
+    while number >= 10:
+        number //= 10
+    return number
+def least_significant_digit(number):
+    return number % 10
+number = int(input("Enter a number: "))
+msd = most_significant_digit(number)
+lsd = least_significant_digit(number)
+print(msd)
+print(lsd)
+Input:
+Enter a number: 12345
+Output:
+1
+5
