@@ -1,0 +1,12 @@
+import datetime
+def first_monday_of_next_month():
+    today = datetime.datetime.now()
+    if today.month == 12:
+        first_day_next_month = datetime.datetime(today.year + 1, 1, 1)
+    else:
+        first_day_next_month = datetime.datetime(today.year, today.month + 1, 1)
+    first_monday = first_day_next_month
+    while first_monday.weekday() != 0:  
+        first_monday += datetime.timedelta(days=1)
+    return first_monday
+print(first_monday_of_next_month())
