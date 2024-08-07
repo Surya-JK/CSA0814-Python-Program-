@@ -7,3 +7,6 @@ def sum_of_series(n):
 n=7
 result=sum_of_series(n)
 print (f"the sum o series is: {result}”)
+
+OUTPUT:
+the sum o series is: 874.0
