@@ -9,3 +9,6 @@ if sum_factorials == num:
     print(f"{num} is a strong number.")
 else:
     print(f"{num} is not a strong number.")
+
+OUTPUT:
+145 is a strong number.
