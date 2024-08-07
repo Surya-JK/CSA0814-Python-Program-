@@ -6,3 +6,6 @@ if is_harshad(number):
     print(f"{number} is a Harshad number.")
 else:
     print(f"{number} is not a Harshad number.")
+
+OUTPUT:
+18 is a Harshad number.
