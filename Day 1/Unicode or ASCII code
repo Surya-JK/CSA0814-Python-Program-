@@ -1,0 +1,4 @@
+for char in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ':
+       print(char, ord(char))
+for char in 'abcdefghijklmnopqrstuvwxyz':
+        print(char, ord(char))
