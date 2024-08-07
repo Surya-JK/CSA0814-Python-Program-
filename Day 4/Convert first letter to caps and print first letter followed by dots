@@ -1,0 +1,12 @@
+s="call of duty"
+print("Original:",s)
+a=s.title()
+print("After Capitalize:",a)
+b=a.split()
+c='.'.join(word[0] for word in b)
+print(c)
+
+OUTPUT:
+Original: call of duty
+After Capitalize: Call Of Duty
+C.O.D
