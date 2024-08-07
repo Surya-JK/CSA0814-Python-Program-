@@ -20,3 +20,6 @@ def is_smith_number(n):
     return digit_sum(n) == sum(digit_sum(f) for f in prime_factors(n))
 number = 378
 print(f"{number} is a Smith number: {is_smith_number(number)}")
+
+OUTPUT:
+378 is a Smith number: True
