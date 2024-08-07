@@ -6,3 +6,6 @@ if square_str.endswith(num_str):
     print(f"{num} is an automorphic number")
 else:
     print(f"{num} is not an automorphic number")
+
+OUTPUT:
+76 is an automorphic number
