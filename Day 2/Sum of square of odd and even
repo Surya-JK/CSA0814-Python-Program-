@@ -1,0 +1,15 @@
+odd_sqr_sum=0
+even_sqr_sum=0
+try:
+    my_list=[]
+    while True:
+        x=int(input())
+        my_list.append(x)
+        if x%2==0:
+            even_sqr_sum+=x**2
+        else:
+            odd_sqr_sum+=x**2
+    except:
+        print(my_list)
+        print("sum of squares of odd:",odd_sqr_sum)
+        print("sum of squares of even:",even_sqr_sum)
