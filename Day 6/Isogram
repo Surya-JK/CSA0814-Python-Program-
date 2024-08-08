@@ -1,0 +1,11 @@
+def is_isogram(s):
+    s = ''.join(filter(str.isalpha, s.lower()))
+    return len(s) == len(set(s))
+print(is_isogram("Dermatoglyphics")) 
+print(is_isogram("aba"))               
+print(is_isogram("moOse"))             
+
+OUTPUT:
+TRUE
+FALSE
+FALSE
