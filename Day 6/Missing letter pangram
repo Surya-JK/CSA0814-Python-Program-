@@ -1,0 +1,14 @@
+def missing_letter(sentence):
+    alphabet = set('abcdefghijklmnopqrstuvwxyz')
+    sentence_set = set(sentence.lower())
+    missing_letters = alphabet - sentence_set
+    return sorted(missing_letters)
+input_sentence = "The quick brown fox jumps over the lazy dog"
+missing = missing_letter(input_sentence)
+if missing:
+    print("Missing letters:", ', '.join(missing))
+else:
+    print("The sentence is already a pangram.")
+
+OUTPUT:
+The sentence is already a pangram.
