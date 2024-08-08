@@ -1,0 +1,11 @@
+def is_pangram(sentence):
+    alphabet = set('abcdefghijklmnopqrstuvwxyz')
+    return set(sentence.lower()) >= alphabet
+print(is_pangram("The quick brown fox jumps over the lazy dog")) 
+print(is_pangram("Pack my box with five dozen liquor jugs"))  
+print(is_pangram("Hello, World!"))  
+
+OUTPUT:
+TRUE
+TRUE 
+FALSE
