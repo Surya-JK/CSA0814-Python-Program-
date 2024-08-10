@@ -1,7 +1,4 @@
 sentence = input("Enter a sentence: ")
-uppercase_sentence = sentence.upper()
-lowercase_sentence = sentence.lower()
-convert_sentence = sentence.swapcase()
 words = sentence.split()
 num_words = len(words)
 words_starting_with_a = 0
