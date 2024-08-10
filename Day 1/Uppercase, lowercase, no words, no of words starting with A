@@ -3,7 +3,7 @@ words = sentence.split()
 num_words = len(words)
 words_starting_with_a = 0
 for word in words:
-   if len(word)>0 and word[0]=='A' or word[0]=='a':
+   if word[0]=='A' or word[0]=='a':
       words_starting_with_a += 1
 print("Uppercase:", uppercase_sentence)
 print("Lowercase:", lowercase_sentence)
