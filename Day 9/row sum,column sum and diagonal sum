@@ -1,14 +1,11 @@
 import numpy as np
-mat=[[1,2,3],
+mat=np.array([
+    [1,2,3],
     [4,5,6],
-    [7,8,9]]
-mat=np.array(mat)
-row=np.sum(mat,axis=1)
-col=np.sum(mat,axis=0)
-dia=np.diagonal(mat)
-print(np.sum(row))
-print(np.sum(col))
-print(np.sum(dia))
+    [7,8,9]])
+print(np.sum(np.sum(mat,axis=1)))
+print(np.sum(np.sum(mat,axis=0)))
+print(np.sum(np.diagonal(mat)))
 
 OUTPUT:
 45
