@@ -1,0 +1,16 @@
+import numpy as np
+mat=[[1,2,3],
+    [4,5,6],
+    [7,8,9]]
+mat=np.array(mat)
+row=np.sum(mat,axis=1)
+col=np.sum(mat,axis=0)
+dia=np.diagonal(mat)
+print(np.sum(row))
+print(np.sum(col))
+print(np.sum(dia))
+
+OUTPUT:
+45
+45
+15
