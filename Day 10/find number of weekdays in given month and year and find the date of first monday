@@ -2,7 +2,6 @@ import calendar
 year = int(input("Enter year: "))
 month = int(input("Enter month (1-12): "))
 if 1 <= month <= 12:
-    # Create a calendar for the given month and year
     cal = calendar.monthcalendar(year, month)
     weekday_count = 0
     first_monday = None
