@@ -1,0 +1,18 @@
+s = "example"
+frequency = {}
+for char in s:
+    if char in frequency:
+        frequency[char] += 1
+    else:
+        frequency[char] = 1
+transform= ''
+for char in s:
+    freq = frequency[char]
+    new_char = chr(((ord(char) - ord('a') + freq) % 26) + ord('a'))
+    transform += new_char
+print("Original string:", s)
+print("Transformed string:", transform)
+
+OUTPUT:
+Original string: example
+Transformed string: gybnqmg
