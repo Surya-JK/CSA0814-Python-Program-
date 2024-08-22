@@ -1,6 +1,6 @@
-from collection import Counter
+from collections import Counter
 s = "example"
-frequency = s.Counter()
+frequency = Counter(s)
 transform= ''
 for char in s:
     freq = frequency[char]
