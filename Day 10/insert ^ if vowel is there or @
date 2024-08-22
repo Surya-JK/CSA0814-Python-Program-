@@ -1,0 +1,21 @@
+a = "Call Of Duty"
+vowels = "aeiou"
+for i in a:
+    if i.lower() in vowels:
+        print(i, "^")
+    else:
+        print(i, "@")
+
+OUTPUT:
+C @
+a ^
+l @
+l @
+  @
+O ^
+f @
+  @
+D @
+u ^
+t @
+y @
