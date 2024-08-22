@@ -19,3 +19,8 @@ if 1 <= month <= 12:
         print("There is no Monday in this month.")
 else:
     print("Invalid month. Please enter a value between 1 and 12.")
+OUTPUT:
+Enter year: 2005
+Enter month (1-12): 4
+Number of weekdays (Monday to Friday) in April 2005: 30
+The date of the first Monday in April 2005 is: 4
