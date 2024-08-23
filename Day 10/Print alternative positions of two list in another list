@@ -7,7 +7,6 @@ for i in range(length):
         res.append(list1[i])
     if i < len(list2):
         res.append(list2[i])
-
 print("Resulting list:", res)
 
 OUTPUT:
