@@ -1,12 +1,11 @@
 sentence = input("Enter a sentence: ")
+convert_sentence=sentence.swapcase
 words = sentence.split()
 num_words = len(words)
 words_starting_with_a = 0
 for word in words:
    if word[0]=='A' or word[0]=='a':
       words_starting_with_a += 1
-print("Uppercase:", uppercase_sentence)
-print("Lowercase:", lowercase_sentence)
 print("Converted:", converted_sentence)
 print("Number of words:", num_words)
 print("Number of words starting with 'A':", words_starting_with_a)
