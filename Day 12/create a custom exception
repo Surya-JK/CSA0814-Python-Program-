@@ -1,0 +1,18 @@
+class InvalidAgeError(Exception):
+    pass  # No additional logic needed for this simple exception
+def check_age(age):
+    if age < 18 or age > 100:
+        raise InvalidAgeError("Age must be between 18 and 100")
+    return "Age is valid."
+try:
+    print(check_age(15))  # This will raise an exception
+except InvalidAgeError as e:
+    print(e)
+try:
+    print(check_age(25))  # This will print "Age is valid."
+except InvalidAgeError as e:
+    print(e)
+
+OUTPUT:
+Age must be between 18 and 100
+Age is valid.
