@@ -1,0 +1,9 @@
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+squared_numbers = list(map(lambda x: x ** 2, numbers))
+even_squares = list(filter(lambda x: x % 2 == 0, squared_numbers))
+print("Squared Numbers:", squared_numbers)
+print("Even Squares:", even_squares)
+
+OUTPUT:
+Squared Numbers: [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+Even Squares: [4, 16, 36, 64, 100]
