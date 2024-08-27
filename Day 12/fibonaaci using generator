@@ -1,0 +1,25 @@
+def fibonacci_generator(n):
+    a, b = 0, 1
+    count = 0
+    while count < n:
+        yield a
+        a, b = b, a + b
+        count += 1
+num_elements = 10
+fib_gen = fibonacci_generator(num_elements)
+print("Fibonacci Sequence:")
+for number in fib_gen:
+    print(number)
+
+OUTPUT:
+Fibonacci Sequence:
+0
+1
+1
+2
+3
+5
+8
+13
+21
+34
