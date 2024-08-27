@@ -1,0 +1,10 @@
+def filter_and_square_odd_numbers(numbers):
+    odd_numbers = [num for num in numbers if num % 2 != 0]
+    squared_odd_numbers = [num ** 2 for num in odd_numbers]
+    return squared_odd_numbers
+gn_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+result = filter_and_square_odd_numbers(gn_list)
+print(result)
+
+OUTPUT:
+[1, 9, 25, 49, 81]
