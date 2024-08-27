@@ -1,0 +1,17 @@
+data = [
+    {"name": "Alice", "value": 20},
+    {"name": "Bob", "value": 15},
+    {"name": "Charlie", "value": 25},
+    {"name": "Diana", "value": 10}
+]
+sorted_data = sorted(data, key=lambda x: x["value"])
+print("Sorted list based on the value of the key 'value':")
+for item in sorted_data:
+    print(item)
+
+OUTPUT:
+Sorted list based on the value of the key 'value':
+{'name': 'Diana', 'value': 10}
+{'name': 'Bob', 'value': 15}
+{'name': 'Alice', 'value': 20}
+{'name': 'Charlie', 'value': 25}
